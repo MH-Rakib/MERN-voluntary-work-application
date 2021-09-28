@@ -1,0 +1,15 @@
+.tagline-container {
+  margin: 50px 0;
+}
+
+.tagline-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #444;
+  text-transform: capitalize;
+}
+.tagline-placeholder {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}

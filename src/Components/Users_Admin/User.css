@@ -1,0 +1,52 @@
+.admin-userInfo {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding: 10px 2px;
+  margin: 5px 0;
+}
+
+.admin-userDelete {
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  padding: 6px 15px;
+  margin: 5px 0;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(28, 107, 211);
+  color: #fff;
+}
+
+.userInfoHeader {
+  background-color: rgb(105, 105, 105);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  line-height: normal;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.userInfoBody {
+  background-color: #ddd;
+  margin: 0;
+  padding: 0;
+  padding: 10px 0;
+  margin: 15px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.uaerInfoTitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  margin: 30px 0;
+  text-align: left;
+  margin-top: 0;
+}

@@ -1,0 +1,29 @@
+.registered-event-image {
+  width: 100%;
+}
+
+.registered-event-title {
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: left;
+  color: #222;
+}
+
+.registered-event-date {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+
+.registered-event-delete {
+  background-color: rgb(55, 132, 221);
+  padding: 8px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  float: left;
+  margin-top: 20px;
+}

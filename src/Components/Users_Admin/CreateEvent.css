@@ -1,0 +1,33 @@
+.createEvent {
+  text-align: left;
+  margin: 0 20px;
+  margin-bottom: 40px;
+}
+
+.createEvent h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.createEvent input {
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: #eee;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.createEvent button {
+  padding: 8px 50px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  background-color: rgb(28, 107, 211);
+  border: none;
+  border-radius: 8px;
+}

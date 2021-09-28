@@ -1,0 +1,24 @@
+.registeredEvents {
+  padding: 30px 5px;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+.registered-events-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 60px;
+  text-align: left;
+}
+.registered-event-more {
+  background-color: rgb(55, 132, 221);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 20px;
+}

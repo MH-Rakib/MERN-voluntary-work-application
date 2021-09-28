@@ -1,0 +1,28 @@
+.voluntree-details {
+  text-align: left;
+}
+
+.voluntree-details h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.voluntree-details p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+  min-height: 215px;
+}
+
+.voluntree-details-image {
+  width: 100%;
+}
+
+.voluntree-details-register-button {
+  padding: 8px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
