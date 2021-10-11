@@ -3,9 +3,11 @@ import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import "./CreateEvent.css";
 import { UserContext } from "./../../App";
+// import fakeData from "../../"
 
 const CreateEvent = () => {
   const [addedEvent, setAddedEvent] = useState({});
+  console.log(addedEvent);
 
   const { available } = useContext(UserContext);
   const [availableVolunteerField, setAvailableVolunteerField] = available;
@@ -17,12 +19,15 @@ const CreateEvent = () => {
   };
 
   const handleAddEvent = () => {
-    // const { id, name, image, description } = addedEvent;
-    // if (id && name && image && description) {
     setAvailableVolunteerField([addedEvent, ...availableVolunteerField]);
-    // } else {
-    //   alert("Fill up all the field");
-    // }
+
+    fetch("http://localhost:4000/addEvent", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(addedEvent),
+    });
   };
 
   return (
